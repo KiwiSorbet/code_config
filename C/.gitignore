@@ -1,0 +1,18 @@
+# object files
+*.o
+
+# static libraries
+*.lib
+*.a
+
+# dynamic libraries
+*.dll
+*.so
+
+# binaries
+*.exe
+*.out
+main
+
+# code editor files
+.vscode
