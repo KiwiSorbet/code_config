@@ -1,12 +1,12 @@
 MAKEFLAGS = --no-print-directory
 
-CC = clang
+CC = gcc
 DB = lldb
 
 CFLAGS = -Wall -Wextra
 LDFLAGS =
 
-DBFLAGS = -O0 -g
+DBFLAGS = -Og -g
 RLFLAGS = -O3 -march=native -mtune=native -DNDEBUG
 
 FILES = $(wildcard *.c)
@@ -14,13 +14,13 @@ OBJECTS = $(FILES:.c=.o)
 TARGET = main
 
 debug:
-	@make clean --no-print-directory
-	$(CC) $(CFLAGS) $(LDFLAGS) $(DBFLAGS) $(FILES) -o $(TARGET)
+	@make clean
+	$(CC) -o $(TARGET) $(CFLAGS) $(LDFLAGS) $(DBFLAGS) $(FILES)
 
 release:
-	@make clean --no-print-directory
-	$(CC) $(CFLAGS) $(LDFLAGS) $(RLFLAGS) $(FILES) -o $(TARGET)
-	
+	@make clean
+	$(CC) -o $(TARGET) $(CFLAGS) $(LDFLAGS) $(RLFLAGS) $(FILES)
+
 clean:
 	@rm -rf $(TARGET) *.exe $(OBJECTS)
 
