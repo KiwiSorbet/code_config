@@ -3,7 +3,7 @@ MAKEFLAGS = --no-print-directory
 CC = gcc
 DB = lldb
 
-CFLAGS = -Wall -Wextra
+CFLAGS = -Wall
 LDFLAGS =
 
 DBFLAGS = -Og -g
