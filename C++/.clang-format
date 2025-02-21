@@ -4,8 +4,8 @@ TabWidth: 4
 ColumnLimit: 80
 
 # indentation
-IndentCaseBlocks: false
-IndentCaseLabels: true
+IndentCaseBlocks: true
+IndentCaseLabels: false
 IndentPPDirectives: None
 IndentWrappedFunctionNames: true
 
@@ -16,7 +16,7 @@ SpaceBeforeAssignmentOperators: true
 SpaceBeforeCaseColon: false
 SpaceBeforeCtorInitializerColon: false
 SpaceBeforeParens: Custom
-SpaceBeforeParensOptions: 
+SpaceBeforeParensOptions:
     AfterControlStatements: true
     AfterFunctionDeclarationName: false
     AfterFunctionDefinitionName: false
@@ -26,7 +26,7 @@ SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
 SpacesBeforeTrailingComments: 1
 SpaceAroundPointerQualifiers: Default
-SpacesInLineCommentPrefix: 
+SpacesInLineCommentPrefix:
     Minimum: 1
     Maximum: 1
 SpacesInParens: Never
@@ -69,7 +69,7 @@ BraceWrapping:
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: Empty
-AllowShortCaseLabelsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: false
 AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: Never
