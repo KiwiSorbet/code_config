@@ -1,15 +1,6 @@
 {
     "configurations": [
         {
-            "name": "LLDB Debug",
-            "type": "lldb",
-            "request": "launch",
-            "program": "${workspaceFolder}/main",
-            "cwd": "${workspaceFolder}",
-            "preLaunchTask": "Build debug",
-            "postDebugTask": "Clean",
-        },
-        {
             "name": "GDB Debug",
             "type": "cppdbg",
             "request": "launch",
@@ -33,6 +24,15 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        {
+            "name": "LLDB Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build debug",
+            "postDebugTask": "Clean"
         }
     ]
 }
