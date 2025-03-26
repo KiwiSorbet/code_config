@@ -15,7 +15,7 @@
 main
 
 # code editor files
-.vscode/
+.vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
 
