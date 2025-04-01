@@ -29,7 +29,8 @@
                 "revealProblems": "onProblem",
                 "close": true
             },
-            "group": "none"
+            "group": "none",
+            "problemMatcher": []
         }
     ]
 }
