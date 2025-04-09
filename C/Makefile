@@ -6,7 +6,7 @@ DB = lldb
 CFLAGS = -Wall
 LDFLAGS =
 
-DBFLAGS = -Og -g
+DBFLAGS = -O0 -g
 RLFLAGS = -O3 -march=native -mtune=native -DNDEBUG
 
 FILES = $(wildcard *.c)
