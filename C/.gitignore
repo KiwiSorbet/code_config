@@ -1,20 +1,24 @@
-# object files
+# OS files
+.DS_Store
+Thumbs.db
+
+# Object files
 *.o
 
-# static libraries
+# Static libraries
 *.lib
 *.a
 
-# dynamic libraries
+# Dynamic libraries
 *.dll
 *.so
 
-# binaries
+# Binaries
 *.exe
 *.out
 main
 
-# code editor files
+# Code editor files
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
