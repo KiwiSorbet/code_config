@@ -9,7 +9,8 @@
                 "revealProblems": "onProblem",
                 "close": true
             },
-            "group": "build"
+            "group": "build",
+            "problemMatcher": []
         }
     ]
 }

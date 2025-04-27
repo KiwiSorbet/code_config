@@ -9,7 +9,8 @@
                 "revealProblems": "onProblem",
                 "close": true
             },
-            "group": "build"
+            "group": "build",
+            "problemMatcher": []
         },
         {
             "label": "Build release",
@@ -19,7 +20,8 @@
                 "revealProblems": "onProblem",
                 "close": true
             },
-            "group": "build"
+            "group": "build",
+            "problemMatcher": []
         },
         {
             "label": "Clean",
@@ -29,7 +31,8 @@
                 "revealProblems": "onProblem",
                 "close": true
             },
-            "group": "none"
+            "group": "none",
+            "problemMatcher": []
         }
     ]
 }
