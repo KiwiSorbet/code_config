@@ -4,8 +4,15 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Chrome",
+            "name": "Live Server",
             "url": "http://localhost:5000",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "npm",
+            "url": "http://localhost:5173",
             "webRoot": "${workspaceFolder}"
         }
     ]
