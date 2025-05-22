@@ -12,7 +12,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "npm",
-            "url": "http://localhost:5173",
+            "url": "http://localhost:4000",
             "webRoot": "${workspaceFolder}"
         }
     ]
