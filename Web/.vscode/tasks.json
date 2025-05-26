@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Format",
+            "type": "shell",
+            "command": "npx prettier --write ./",
+            "presentation": {"revealProblems": "onProblem", "close": true},
+            "group": "none",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "plugins": ["prettier-plugin-css-order"],
+    "cssDeclarationSorterOrder": "concentric-css",
+    "cssDeclarationSorterKeepOverrides": false,
+    "experimentalOperatorPosition": "start",
+    "printWidth": 90,
+    "tabWidth": 4,
+    "useTabs": false,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": false,
+    "objectWrap": "collapse",
+    "bracketSameLine": false,
+    "endOfLine": "lf"
+}
