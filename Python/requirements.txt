@@ -1,0 +1,17 @@
+# General Utilities
+requests
+python-dotenv
+tqdm
+rich
+
+# Data Science & Analysis
+numpy
+pandas
+matplotlib
+scikit-learn
+jupyterlab
+
+# Web Scraping
+beautifulsoup4
+lxml
+selenium
