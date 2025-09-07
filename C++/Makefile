@@ -15,11 +15,11 @@ TARGET = main
 
 debug:
 	@make clean
-	$(CC) -o $(TARGET) $(CFLAGS) $(LDFLAGS) $(DBFLAGS) $(FILES)
+	$(CC) -o $(TARGET) $(CFLAGS) $(DBFLAGS) $(FILES) $(LDFLAGS)
 
 release:
 	@make clean
-	$(CC) -o $(TARGET) $(CFLAGS) $(LDFLAGS) $(RLFLAGS) $(FILES)
+	$(CC) -o $(TARGET) $(CFLAGS) $(RLFLAGS) $(FILES) $(LDFLAGS)
 
 clean:
 	@rm -rf $(TARGET) *.exe $(OBJECTS)
