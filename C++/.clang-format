@@ -3,13 +3,13 @@ IndentWidth: 4
 TabWidth: 4
 ColumnLimit: 90
 
-# indentation
+# Indentation
 IndentCaseBlocks: true
 IndentCaseLabels: false
 IndentPPDirectives: None
 IndentWrappedFunctionNames: true
 
-# spacing
+# Spacing
 SpaceAfterCStyleCast: true
 SpaceAfterLogicalNot: true
 SpaceBeforeAssignmentOperators: true
@@ -32,7 +32,7 @@ SpacesInLineCommentPrefix:
 SpacesInParens: Never
 SpacesInSquareBrackets: false
 
-# alignment
+# Alignment
 AlignAfterOpenBracket: Align
 AlignArrayOfStructures: Right
 AlignEscapedNewlines: Left
@@ -42,15 +42,15 @@ DerivePointerAlignment: false
 PointerAlignment: Left
 ReferenceAlignment: Left
 QualifierAlignment: Custom
-QualifierOrder: ['inline', 'const', 'constexpr', 'static', 'volatile', 'restrict', 'type']
+QualifierOrder: ["inline", "const", "constexpr", "static", "volatile", "restrict", "type"]
 AlignTrailingComments: false
 
-# breaking
+# Breaking
 BreakBeforeBraces: Custom
 BreakBeforeBinaryOperators: NonAssignment
 ReflowComments: true
 
-# brace wrapping
+# Brace wrapping
 BraceWrapping:
     AfterCaseLabel: false
     AfterClass: false
@@ -65,7 +65,7 @@ BraceWrapping:
     BeforeElse: true
     BeforeWhile: true
 
-# what's allowed
+# What's allowed
 AllowAllArgumentsOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: true
 AllowShortBlocksOnASingleLine: Empty
@@ -75,20 +75,20 @@ AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false
 
-# insertions
-InsertBraces: false
+# Insertions
+InsertBraces: true
 InsertNewlineAtEOF: false
 SeparateDefinitionBlocks: Always
 LineEnding: LF
 
-# deletions
+# Deletions
 KeepEmptyLinesAtEOF: false
 KeepEmptyLinesAtTheStartOfBlocks: false
 MaxEmptyLinesToKeep: 1
-RemoveBracesLLVM: true
+RemoveBracesLLVM: false
 RemoveParentheses: ReturnStatement
 RemoveSemicolon: true
 
-# sorting
+# Sorting
 SortIncludes: CaseSensitive
 IncludeBlocks: Preserve
